@@ -1601,19 +1601,21 @@
       </div>
       <div class="contact-form reveal">
         <div class="form-group">
+          <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c48b46eb-4c8b-42dc-ad03-736f8d00c4b8">
           <label>Your name</label>
-          <input type="text" placeholder="e.g. Riya Sharma">
+            <input type="text" name="name" placeholder="e.g. Riya sharma" required>
         </div>
         <div class="form-group">
           <label>Email address</label>
-          <input type="email" placeholder="e.g. riya@company.com">
+          <input type="email" placeholder="e.g. riya@company.com" required>
         </div>
         <div class="form-group">
           <label>Message</label>
           <textarea placeholder="Tell me about your project or opportunity…"></textarea>
         </div>
         <button class="btn btn-primary" style="width:100%;justify-content:center">Send message →</button>
-      </div>
+        </form>      </div>
     </div>
   </div>
 </section>
